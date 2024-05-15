@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49AF5A3D-0466-F89F-FB3C-C9F91EE7FF2A" name="TB_TIPO_QUARTO">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:58:19 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_quarto" id="CD20D9FC-D11E-AC68-232E-B087A5D30CFE">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 15:00:50 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_diaria_tipo_quarto" id="3C54FB42-09A8-E646-4856-CB365379CF4E">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 15:01:23 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao_tipo_quarto" id="DB510ECA-4B57-E933-B83F-4A08A901F0BB">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 15:01:41 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9984251A-C7DB-585C-DB9D-ABAF4277E153" name="TB_TIPO_QUARTO PK">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 15:01:03 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD20D9FC-D11E-AC68-232E-B087A5D30CFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

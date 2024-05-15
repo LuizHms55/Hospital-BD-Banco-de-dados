@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E76E87D9-77A1-FF4D-84BE-1582C52BD0D8" name="TB_ENFERMEIRO">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:48:15 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_enfermeiro" id="686B4E63-2795-EF32-B202-3AB7B113C9B6">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:48:26 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_enfermeiro" id="19B386D9-D569-F41A-0FFF-F300161826E4">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:51:12 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_enfermeito" id="C66795B7-AC9C-9170-B3D2-7A15CFCCA606">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:51:27 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F4338EC-950E-46B4-A4E0-994980058DB8" name="TB_ENFERMEIRO PK">
+<createdBy>vito silva</createdBy>
+<createdTime>2024-05-08 14:49:38 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="5015A481-F4A5-8CAE-68A5-118577B63458" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>686B4E63-2795-EF32-B202-3AB7B113C9B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
